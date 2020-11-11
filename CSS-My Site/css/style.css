@@ -1,0 +1,80 @@
+p {
+    font-family: 'Lobster', cursive;
+}
+
+h3 {
+    color: #11999E;
+}
+a {
+    color: #11999E;
+}
+
+.body {
+    text-align: center;
+    background-color: #e8ffff;
+}
+
+.heading1{
+    margin: 0 auto;
+    font-family: 'Lobster', cursive;
+    font-size: 560%;
+    color: #66bfbf;
+}
+
+.heading2 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66bfbf;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top_container {
+    padding: 0;
+    position: relative;
+}
+
+.middle_container {
+
+}
+
+.bottom_container {
+
+}
+.top-cloud {
+    position: absolute;
+    right : 30% ;
+    top : 20%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 30%;
+    bottom: 30%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-img {
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 3%;
+}
+
+.basketball-img {
+    height: 15%;
+    width: 18%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 3%;
+}

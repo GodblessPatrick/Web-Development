@@ -8,7 +8,6 @@ var level = 0
 // keyboard press event
 $(document).keydown(function () { 
     if (!startGame) {
-        var levelMsg = "Level " + level
         nextSequence()
         startGame = true
     }
@@ -20,7 +19,7 @@ $(".btn").click(function () {
     userClickedPattern.push(userChosenColour)
     playAudio(userChosenColour)
     animatePress(userChosenColour)
-    checkAnswer(userChosenColour.length - 1)
+    checkAnswer(userClickedPattern.length - 1)
 })
 
 function checkAnswer(lastIndex) {
